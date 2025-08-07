@@ -51,7 +51,6 @@ export const Header = () => {
     { name: "services" },
     { name: "portfolio" },
     { name: "team" },
-    { name: "testimonials" },
     { name: "reviews" },
   ];
 

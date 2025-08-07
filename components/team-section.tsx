@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 
 export function TeamSection() {
   return (
-    <section className="relative z-10 border-t border-white/10 bg-black py-24">
+    <section id="team" className="relative z-10 border-t border-white/10 bg-black py-24">
       <div className="container px-4">
         <div className="mb-16 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">

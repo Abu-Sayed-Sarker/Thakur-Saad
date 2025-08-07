@@ -30,22 +30,22 @@ export function Footer() {
             <h3 className="mb-4 font-semibold">Services</h3>
             <ul className="space-y-2 text-sm text-gray-400">
               <li>
-                <Link href="#" className="hover:text-main-secondary">
+                <Link href="https://www.fiverr.com/thakur_saad" className="hover:text-main-secondary">
                   AI Development
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-main-secondary">
+                <Link href="https://www.fiverr.com/thakur_saad" className="hover:text-main-secondary">
                   Web Applications
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-main-secondary">
+                <Link href="https://www.fiverr.com/thakur_saad" className="hover:text-main-secondary">
                   Mobile Apps
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-main-secondary">
+                <Link href="https://www.fiverr.com/thakur_saad" className="hover:text-main-secondary">
                   API Integration
                 </Link>
               </li>
@@ -53,26 +53,26 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-4 font-semibold">Company</h3>
+            <h3 className="mb-4 font-semibold">Quick Links</h3>
             <ul className="space-y-2 text-sm text-gray-400">
               <li>
-                <Link href="#" className="hover:text-main-secondary">
-                  About Us
-                </Link>
+                <a href="#home" className="hover:text-main-secondary">
+                  Home
+                </a>
               </li>
               <li>
-                <Link href="#" className="hover:text-main-secondary">
+                <Link href="#team" className="hover:text-main-secondary">
                   Our Team
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-main-secondary">
+                <Link href="#portfolio" className="hover:text-main-secondary">
                   Portfolio
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-main-secondary">
-                  Contact
+                <Link href="#services" className="hover:text-main-secondary">
+                  Services
                 </Link>
               </li>
             </ul>
@@ -81,7 +81,7 @@ export function Footer() {
 
         <div className="mt-8 border-t border-white/10 pt-8 text-center">
           <p className="text-sm text-gray-400">
-            © {new Date().getFullYear()} solution SQD. All rights reserved.
+            © {new Date().getFullYear()} thakursaad. All rights reserved.
           </p>
         </div>
       </div>

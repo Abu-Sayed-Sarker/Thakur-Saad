@@ -6,7 +6,7 @@ import { Quote, Star } from "lucide-react";
 
 export function TestimonialsSection() {
   return (
-    <section className="relative z-10 border-t border-white/10 bg-black py-24">
+    <section id="reviews" className="relative z-10 border-t border-white/10 bg-black py-24">
       <div className="container px-4">
         <div className="mb-16 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">

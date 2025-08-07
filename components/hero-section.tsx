@@ -11,6 +11,7 @@ import FramerSpotlight from "./framer-spotlight";
 export function HeroSection() {
   return (
     <section
+    id="home"
       className="relative flex min-h-screen items-center justify-center overflow-hidden pt-24 md:pt-16"
       style={{
         background:

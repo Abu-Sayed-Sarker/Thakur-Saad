@@ -17,7 +17,7 @@ export function ProjectsSection() {
   const visibleProjects = showAllProject ? projects : projects.slice(0, 3);
 
   return (
-    <section className="py-20 bg-gradient-to-b from-black  to-main-secondary/5">
+    <section id="portfolio" className="py-20 bg-gradient-to-b from-black  to-main-secondary/5">
       <div className="container px-4 md:px-6">
         <div className="text-center mb-16">
           <Badge className="bg-gradient-to-r from-main-secondary to-teal-500 text-white border-0 mb-4">
