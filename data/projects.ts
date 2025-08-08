@@ -22,7 +22,13 @@ export const projects: Projects = [
     "title": "Smile Palm Desert",
     "description": "A compassionate dental practice focused on creating confident smiles. Offering expert dental care with a focus on comfort, care, and precision. Whether you need cosmetic or general dentistry, your smile is in great hands.",
     "image": project1,
-    "technologies": ["Cosmetic Dentistry", "Comfort Care", "Precision", "Dental Services"],
+    "technologies": [
+      "Appointment Scheduling System",
+      "Online Payment Integration",
+      "Patient Management Dashboard",
+      "AI-Powered Diagnostics",
+      "Real-Time Communication with Patients"
+    ],
     "category": "Healthcare",
     "link": "https://smilepalmdesert.jvai.site/"
   },
@@ -31,7 +37,13 @@ export const projects: Projects = [
     "title": "The Conversation Crew",
     "description": "A program designed to help kids and teens build real-life social confidence. It offers a safe, supportive space for young people to practice communication skills, improve social interactions, and form lasting friendships.",
     "image": project2,
-    "technologies": ["Social Confidence", "Youth Program", "Communication Skills", "Social Interaction"],
+    "technologies": [
+      "Real-Time Chat Functionality",
+      "User Profiles and Progress Tracking",
+      "Video Call Integration",
+      "Social Interaction Skills Development",
+      "AI-Moderated Content"
+    ],
     "category": "Youth Development",
     "link": "https://theconversationcrew.com/"
   },
@@ -40,7 +52,13 @@ export const projects: Projects = [
     "title": "Storm Intel",
     "description": "A data-driven consultancy blending marketing expertise with cutting-edge IT solutions. Specializing in transforming data into actionable insights that drive business growth. From audience analysis to data architecture, they provide smart solutions for business success.",
     "image": project3,
-    "technologies": ["Data Analytics", "IT Solutions", "Marketing Expertise", "Business Growth"],
+    "technologies": [
+      "Data-Driven Insights and Reports",
+      "Predictive Analytics",
+      "Client Dashboards with Data Visualization",
+      "Audience Behavior Analysis",
+      "Customizable Data Reports"
+    ],
     "category": "Consultancy",
     "link": "https://storm-intel.com/"
   },
@@ -49,7 +67,13 @@ export const projects: Projects = [
     "title": "Great Canadian Sims",
     "description": "Custom-designed golf simulators and entertainment solutions that cater to both functionality and design. Helping clients create unique spaces that combine the thrill of golf with high-end entertainment features, perfect for any home or venue.",
     "image": project4,
-    "technologies": ["Golf Simulators", "Entertainment Solutions", "Custom Design", "Home Entertainment"],
+    "technologies": [
+      "Realistic Golf Simulator Experience",
+      "Customizable Course Designs",
+      "Interactive User Interface",
+      "Real-Time Performance Tracking",
+      "3D Graphics and Visualizations"
+    ],
     "category": "Sports & Entertainment",
     "link": "https://greatcanadiansims.ca/"
   },
@@ -58,7 +82,13 @@ export const projects: Projects = [
     "title": "Alternate Power Solutions",
     "description": "A Cape Town-based service provider offering comprehensive solutions in electrical, solar, property maintenance, and plumbing. APS ensures energy-efficient and reliable services that help businesses and homes thrive sustainably.",
     "image": project5,
-    "technologies": ["Electrical Solutions", "Solar Power", "Plumbing", "Property Maintenance"],
+    "technologies": [
+      "Solar Power System Integration",
+      "Energy Consumption Monitoring",
+      "Maintenance Service Scheduling",
+      "Smart Home Energy Solutions",
+      "Mobile App for Energy Tracking"
+    ],
     "category": "Energy & Utilities",
     "link": "https://alternate-power-sn-6zpr.vercel.app/"
   },
@@ -67,7 +97,13 @@ export const projects: Projects = [
     "title": "OTK Event Production",
     "description": "A premium event production service trusted by major clients such as the Oscars. OTK specializes in creating spectacular events with cutting-edge technology and flawless execution, ensuring every event is a success.",
     "image": project6,
-    "technologies": ["Event Production", "Technology Integration", "Live Events", "Client Management"],
+    "technologies": [
+      "Event Scheduling and Ticketing",
+      "Live Streaming and Video Production",
+      "Real-Time Event Updates",
+      "Event Planning and Management Tools",
+      "Client and Vendor Coordination"
+    ],
     "category": "Event Services",
     "link": "https://otk.jvai.site/"
   }
