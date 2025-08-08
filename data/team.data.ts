@@ -22,6 +22,12 @@ export const teamData = {
       image: teamMember1,
       skills: ["Adobe XD", "Figma", "User Research"],
     },
+    { 
+      name: "Thakur Saad",
+      role: "CEO",
+      image: teamMember5,
+      skills: ["AWS", "Docker", "Kubernetes"],
+    },
     {
       name: "Muhammad Moyeenul Hoque ",
       role: "Flutter Developer",
@@ -33,12 +39,6 @@ export const teamData = {
       role: "Frontend Developer",
       image: teamMember4,
       skills: ["Figma", "Adobe XD", "User Research"],
-    },
-    { 
-      name: "David Wilson",
-      role: "Data Scientist",
-      image: teamMember5,
-      skills: ["AWS", "Docker", "Kubernetes"],
     },
     {
       name: "Md Akash Miah",

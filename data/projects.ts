@@ -1,9 +1,9 @@
 import project1 from "@/assets/projects/1.png";
-import project2 from "@/assets/projects/2.png";
-import project3 from "@/assets/projects/3.png";
-import project4 from "@/assets/projects/4.png";
-import project5 from "@/assets/projects/5.png";
-import project6 from "@/assets/projects/6.png";
+import project3 from "@/assets/projects/2.png";
+import project4 from "@/assets/projects/3.png";
+import project5 from "@/assets/projects/4.png";
+import project6 from "@/assets/projects/5.png";
+import project2 from "@/assets/projects/6.png";
 import { StaticImageData } from "next/image";
 
 type Projects = {
@@ -18,83 +18,58 @@ type Projects = {
 
 export const projects: Projects = [
   {
-    id: 1,
-    title: "Math Detectives",
-    description:
-      "AI-powered tutoring chatbot built on OpenAI's advanced O1 model. Delivers personalised, one-on-one support with step-by-step guidance, instant feedback, and handwritten assignment analysis through photo uploads.",
-    image: project1,
-    technologies: ["OpenAI O1", "AI Tutoring", "Computer Vision", "React"],
-    category: "Education",
-    link: "https://mathaidetectives.com/",
+    "id": 1,
+    "title": "Smile Palm Desert",
+    "description": "A compassionate dental practice focused on creating confident smiles. Offering expert dental care with a focus on comfort, care, and precision. Whether you need cosmetic or general dentistry, your smile is in great hands.",
+    "image": project1,
+    "technologies": ["Cosmetic Dentistry", "Comfort Care", "Precision", "Dental Services"],
+    "category": "Healthcare",
+    "link": "https://smilepalmdesert.jvai.site/"
   },
   {
-    id: 2,
-    title: "Bowlers Network",
-    description:
-      "Platform for bowling enthusiasts offering advanced performance tracking, expert coaching, exclusive content, and a vibrant community. Perfect for players of all levels to elevate their skills.",
-    image: project2,
-    technologies: [
-      "React",
-      "Performance Analytics",
-      "Community Platform",
-      "Node.js",
-    ],
-    category: "Sports Platform",
-    link: "https://bowler-website-5j7q.vercel.app/",
+    "id": 2,
+    "title": "The Conversation Crew",
+    "description": "A program designed to help kids and teens build real-life social confidence. It offers a safe, supportive space for young people to practice communication skills, improve social interactions, and form lasting friendships.",
+    "image": project2,
+    "technologies": ["Social Confidence", "Youth Program", "Communication Skills", "Social Interaction"],
+    "category": "Youth Development",
+    "link": "https://theconversationcrew.com/"
   },
   {
-    id: 3,
-    title: "Poop Alert",
-    description:
-      "Lighthearted soundboard app packed with hilarious, toilet-themed sound effects. From flushing toilets to fart noises, designed to add humor to any situation and keep things fun.",
-    image: project3,
-    technologies: [
-      "React Native",
-      "Audio Processing",
-      "Mobile App",
-      "JavaScript",
-    ],
-    category: "Entertainment",
-    link: "https://poop-alert.com/",
+    "id": 3,
+    "title": "Storm Intel",
+    "description": "A data-driven consultancy blending marketing expertise with cutting-edge IT solutions. Specializing in transforming data into actionable insights that drive business growth. From audience analysis to data architecture, they provide smart solutions for business success.",
+    "image": project3,
+    "technologies": ["Data Analytics", "IT Solutions", "Marketing Expertise", "Business Growth"],
+    "category": "Consultancy",
+    "link": "https://storm-intel.com/"
   },
   {
-    id: 4,
-    title: "MED World",
-    description:
-      "Health management platform designed to help users manage and track their health information effectively with modern interface and comprehensive tracking features.",
-    image: project4,
-    technologies: ["React", "Health Analytics", "Data Management", "UI/UX"],
-    category: "Healthcare",
-    link: "https://www.figma.com/design/l4VmxRvfwCrcliptwoepJj/MED-World?node-id=0-1&p=f",
+    "id": 4,
+    "title": "Great Canadian Sims",
+    "description": "Custom-designed golf simulators and entertainment solutions that cater to both functionality and design. Helping clients create unique spaces that combine the thrill of golf with high-end entertainment features, perfect for any home or venue.",
+    "image": project4,
+    "technologies": ["Golf Simulators", "Entertainment Solutions", "Custom Design", "Home Entertainment"],
+    "category": "Sports & Entertainment",
+    "link": "https://greatcanadiansims.ca/"
   },
   {
-    id: 5,
-    title: "VaznzaMyCost.it",
-    description:
-      "Comprehensive travel and booking platform allowing users to effortlessly plan and book trips. Features flights, hotels, car rentals, and unique travel experiences with competitive prices.",
-    image: project5,
-    technologies: [
-      "React",
-      "Booking APIs",
-      "Travel Platform",
-      "Payment Integration",
-    ],
-    category: "Travel Platform",
-    link: "https://www.figma.com/design/3GpcVGOIn68o7hUdyLaEZz/frework-dd?node-id=0-1&p=f",
+    "id": 5,
+    "title": "Alternate Power Solutions",
+    "description": "A Cape Town-based service provider offering comprehensive solutions in electrical, solar, property maintenance, and plumbing. APS ensures energy-efficient and reliable services that help businesses and homes thrive sustainably.",
+    "image": project5,
+    "technologies": ["Electrical Solutions", "Solar Power", "Plumbing", "Property Maintenance"],
+    "category": "Energy & Utilities",
+    "link": "https://alternate-power-sn-6zpr.vercel.app/"
   },
   {
-    id: 6,
-    title: "AI PDF Transformer",
-    description:
-      "AI-powered PDF transformation platform allowing users to upload and enhance documents. Features modern, user-friendly design with login, AI tools, reviews, FAQs, and contact form.",
-    image: project6,
-    technologies: [
-      "AI Processing",
-      "PDF APIs",
-      "React",
-      "Document Enhancement",
-    ],
-    category: "Business Tool",
-    link: "https://www.figma.com/design/sahMNTiBCHroRo3XX4zhbG/Digi?node-id=0-1&p=f",
-  },
-];
+    "id": 6,
+    "title": "OTK Event Production",
+    "description": "A premium event production service trusted by major clients such as the Oscars. OTK specializes in creating spectacular events with cutting-edge technology and flawless execution, ensuring every event is a success.",
+    "image": project6,
+    "technologies": ["Event Production", "Technology Integration", "Live Events", "Client Management"],
+    "category": "Event Services",
+    "link": "https://otk.jvai.site/"
+  }
+]
+

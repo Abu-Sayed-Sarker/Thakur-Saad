@@ -1,6 +1,6 @@
 "use client";
 
-import arifulsPhoto from "@/assets/ariful-photo.png";
+import arifulsPhoto from "@/assets/teams/team-member-5.png";
 import { heroData } from "@/data";
 import { motion } from "framer-motion";
 import { Award, Clock, MessageCircle, Star } from "lucide-react";
@@ -115,7 +115,7 @@ export function HeroSection() {
                     <Image
                       src={arifulsPhoto}
                       alt="Profile"
-                      className="h-full w-full object-cover origin-top top-0 lg:h-[400px] lg:w-[400px]"  // Added larger size for desktop
+                      className="h-full w-full object-cover object-top origin-top top-0 lg:h-[400px] lg:w-[400px]"  // Added larger size for desktop
                     />
                     {/* <div className="absolute -bottom-2 -right-2 rounded-full bg-emerald-500 p-2">
                       <Award className="h-4 w-4 text-white" />

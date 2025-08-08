@@ -88,13 +88,7 @@ export function ProjectsSection() {
                         <ExternalLink className="h-4 md:block hidden w-4 mr-2" />
                         View Project
                       </Link>
-                      <Button
-                        variant="outline"
-                        className="border-main-secondary text-main-secondary-600 hover:bg-main-secondary/20 dark:hover:bg-main-secondary/20 bg-transparent"
-                      >
-                        Learn More
-                        <ArrowRight className="h-4 w-4 ml-2 md:block hidden" />
-                      </Button>
+                    
                     </div>
                   </div>
                 </div>
