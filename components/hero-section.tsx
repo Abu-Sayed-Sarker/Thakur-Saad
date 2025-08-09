@@ -12,7 +12,7 @@ export function HeroSection() {
   return (
     <section
     id="home"
-      className="relative flex min-h-screen items-center justify-center overflow-hidden pt-24 md:pt-16"
+      className="relative flex min-h-screen items-center justify-center overflow pt-24 md:pt-16"
       style={{
         background:
           "radial-gradient(ellipse 80% 60% at 50% 0%, rgb(78, 215, 241, 0.3), transparent 50%), #000000",
@@ -109,7 +109,7 @@ export function HeroSection() {
             className="flex items-center justify-center"
           >
             <div className="relative">
-              <div className="rounded-2xl border border-white/10 bg-white/5  backdrop-blur-sm overflow-hidden">
+              <div className="rounded-2xl border border-white/10 bg-white/5  backdrop-blur-sm">
                 <div className="text-center">
                   <div className="relative mx-auto mb-6">
                     <Image
@@ -117,9 +117,11 @@ export function HeroSection() {
                       alt="Profile"
                       className="h-full w-full object-cover object-top origin-top top-0 lg:h-[400px] lg:w-[400px]"  // Added larger size for desktop
                     />
-                    {/* <div className="absolute -bottom-2 -right-2 rounded-full bg-emerald-500 p-2">
-                      <Award className="h-4 w-4 text-white" />
-                    </div> */}
+                    <div className="absolute w-full -bottom-3 md:-bottom-12 z-10 rounded-full bg-emerald-500 p-2">
+                      <h1 className="text-lg font-semibold">Thakur Saad</h1>
+                      <h2 className="text-base">Founder & CEO of Thakur Saad</h2>
+                      <p className="text-xs">Fiverr Verified Pro Seller</p>
+                    </div>
                   </div>
                 </div>
               </div>

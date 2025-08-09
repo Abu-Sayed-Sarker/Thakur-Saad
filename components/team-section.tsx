@@ -1,7 +1,7 @@
 "use client";
 
 import { teamData } from "@/data";
-import { Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -21,59 +21,50 @@ export function TeamSection() {
           <p className="mt-4 text-gray-400">{teamData.subtitle}</p>
         </div>
 
-        <Swiper
-          className="grid gap-8 sm:grid-cols-2 lg:grid-cols-5 "
-          spaceBetween={50}
-          slidesPerView={3} 
-          modules={[Navigation, Pagination]}
-          breakpoints={{
-            0: {
-              slidesPerView: 1,
-            },
-            640: {
-              slidesPerView: 2,
-            },
-            1024: {
-              slidesPerView: 3,
-            },
-            1280: {
-              slidesPerView: 5,
-            },
-          }}
-        >
-          {teamData.members.map((member, index) => (
-            <SwiperSlide
-              key={index}
-              className={`group rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition-all hover:border-main-secondary/50 hover:bg-white/10 $`}
-              
-            >
-              <div className="text-center">
-                <div className="relative mx-auto mb-4 size-36">
-                  <Image
-                    src={member.image }
-                    alt={member.name}
-                    className="h-full w-full rounded-full object-cover object-top"
-                                      />
-                  
-                </div>
-                <h3 className="mb-1 font-bold">{member.name}</h3>
-                <p className="mb-3 text-sm text-main-secondary">
-                  {member.role}
-                </p>
-                {/* <div className="flex flex-wrap justify-center gap-1">
-                    {member.skills.map((skill, skillIndex) => (
-                      <span
-                        key={skillIndex}
-                        className="rounded-full bg-emerald-500/20 px-2 py-1 text-xs text-main-secondary"
-                      >
-                        {skill}
-                      </span>
-                    ))}
-                  </div> */}
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+<Swiper
+  className="grid gap-8 sm:grid-cols-2 lg:grid-cols-5"
+  spaceBetween={50}
+  slidesPerView={3}
+  modules={[Navigation, Pagination, Autoplay]}
+  autoplay={{
+    delay: 3000, // 3 seconds between slides
+    disableOnInteraction: false, // keeps autoplay after swiping
+  }}
+  breakpoints={{
+    0: {
+      slidesPerView: 1,
+    },
+    640: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+    1280: {
+      slidesPerView: 5,
+    },
+  }}
+>
+  {teamData.members.map((member, index) => (
+    <SwiperSlide
+      key={index}
+      className="group rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition-all hover:border-main-secondary/50 hover:bg-white/10"
+    >
+      <div className="text-center">
+        <div className="relative mx-auto mb-4 size-36">
+          <Image
+            src={member.image}
+            alt={member.name}
+            className="h-full w-full rounded-full object-cover object-top"
+          />
+        </div>
+        <h3 className="mb-1 font-bold">{member.name}</h3>
+        <p className="mb-3 text-sm text-main-secondary">{member.role}</p>
+      </div>
+    </SwiperSlide>
+  ))}
+</Swiper>
+
       </div>
     </section>
   );
